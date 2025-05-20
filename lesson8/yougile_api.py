@@ -2,7 +2,7 @@ import requests
 
 
 class YouGileAPI:
-    def init(self, api_token):
+    def __init__(self, api_token):
         self.api_token = api_token
         self.base_url = "https://ru.yougile.com/api-v2"
 
